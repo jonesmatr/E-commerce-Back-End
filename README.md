@@ -5,7 +5,7 @@
 
 This application provides a back end for an e-commerce site. Using Express.js API and Sequelize, it interacts with a MySQL database to manage an online store's products, categories, and tags.
 
-The walkthrough video can be accessed [here](https://drive.google.com/file/d/1Vk57fEjk9O3qHy7sBk-wVttxou1AzcT7/view?usp=sharing).
+The walkthrough video can be accessed [here](https://drive.google.com/file/d/15bL_ugr_YwcddTKmSjeGLmgBEvQ-EluD/view?usp=sharing).
 
 ### Features
 
