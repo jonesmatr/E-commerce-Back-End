@@ -16,9 +16,9 @@ router.get('/', (req, res) => {
       {
         model: Tag,
         through: ProductTag,
+        as: 'products',  // Using the alias set in the association
         attributes: ['id', 'tag_name'],
-      }
-      ,
+      },
     ],
   })
   .then((products) => res.json(products))
@@ -44,7 +44,7 @@ router.get('/:id', (req, res) => {
       {
         model: Tag,
         through: ProductTag,
-        as: 'product_tags',
+        as: 'products',
         attributes: ['id', 'tag_name'],
       },
     ],
